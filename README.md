@@ -1,2 +1,2 @@
-# personal-portfolio
-Personal portfolio using HTML, CSS, jQuery and Bootstrap
+# portfolio
+Portfolio using HTML, CSS, JS and Bootstrap
