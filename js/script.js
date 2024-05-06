@@ -123,7 +123,10 @@ window.onload = function()
 
   
   if (window.innerWidth < 1000)
+  {
+    cover.style.opacity = "1"
     phoneVersion();
+  }
 
   else
   {
@@ -144,4 +147,4 @@ window.onload = function()
       positionCover();
     }
   }
-}
+} 

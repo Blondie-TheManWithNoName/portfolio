@@ -34,13 +34,13 @@
             </ul>
             <ul class="nav">
                 <li>
-                    <a href="https://github.com/Blondie-TheManWithNoName" target="_blank" class="text-muted"><i class="fa-brands fa-github fa-2x px-3 zoom-icon"></i></a>
+                    <a href="https://github.com/Blondie-TheManWithNoName" target="_blank" class="text-muted"><i class="fa-brands fa-github fa-xl px-3 zoom-icon"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/nbguardiola/" target="_blank" class="text-muted"><i class="fa-brands fa-linkedin fa-2x px-3 zoom-icon"></i></a>
+                    <a href="https://www.linkedin.com/in/nbguardiola/" target="_blank" class="text-muted"><i class="fa-brands fa-linkedin fa-xl px-3 zoom-icon"></i></a>
                 </li>
                 <li>
-                    <a href="mailto:nbguardiola@gmail.com" target="_blank" class="text-muted"><i class="fa-solid fa-envelope fa-2x px-3 zoom-icon"></i></a>
+                    <a href="mailto:nbguardiola@gmail.com" target="_blank" class="text-muted"><i class="fa-solid fa-envelope fa-xl px-3 zoom-icon"></i></a>
                 </li>
             </ul>
         </section>
@@ -97,13 +97,50 @@
                     <div class="card-body">
                         <h6 class="card-subtitle text-muted mb-3">2016 - 2018</h6>
                         <h5 class="card-title font-weight-bold ml-4">High School</h5>
-                        <h6 class="card-subtitle mb-3 ml-4">IES Ernest Lluch i Martín</h6>
+                        <h6 class="card-subtitle mb-3 ml-4">IES Ernest Lluch i MartÃ­n</h6>
                     </div>                                                                                                                                    
                 </div>
                 </div>
                 <h3 id="projects" class="text-light font-weight-bold mb-4">Projects</h3>
                 <p class="text-justify mb-3">These are some of the projects I have done through my education and on my own too!</p>                                                                   
-                    <div class="card-body projects-card">
+                <div class="card-body projects-card ">
+                    <div class="card-title">
+                        <h4 class="font-weight-bold mb-6 font-italic">Card Mat</h4>
+                        <a href="https://github.com/Blondie-TheManWithNoName/Cards" target="_blank" class="text-muted repository">
+                        <i class="fa-solid fa-book-bookmark zoom-icon"></i></a>
+                    </div>
+                    <p class="card-subtitle mb-3 ml-4">Lastest project I have been working on. It's a Poker Card Mat webiste app where you can move, flip, take cards with other 3 players and play any game you want, just like a regular card game you would play at home!
+                            I implemented it with <i><b>HTML</b></i>, <i><b>CSS</b></i> and vanilla <i><b>JavaScript</b></i>.</p>
+                            
+                    <p class="card-subtitle mb-3 ml-4">Using <i><b>Node.js</b></i> with the frameworks <i><b>Express</b></i> and <i><b>Socket.io</b></i> for the Client-Server communitacion of the app.</p>
+                    <p class="card-subtitle mb-3 ml-4">Check it out at <a href="https://www.cardmat.fun" target="_blank" style="color: #4682A9;">cardmat.fun</a></p>
+
+                    <p class="card-subtitle mb-3 ml-4"><b>Video example of how it looks for 4 players:</b></p>
+                    <div id="outer">
+                        <video controls>
+                            <source src="assets/cards.mp4" type="video/mp4" class="video">
+                        </video>
+                    </div>
+                </div>
+                <div class="card-body projects-card ">
+                    <div class="card-title">
+                        <h4 class="font-weight-bold mb-6 font-italic">Snake II</h4>
+                        <a href="https://github.com/Blondie-TheManWithNoName/Snake-2" target="_blank" class="text-muted repository">
+                        <i class="fa-solid fa-book-bookmark zoom-icon"></i></a>
+                    </div>
+                    <p class="card-subtitle mb-3 ml-4">Little game based on the classic game Snake. In this version you control two snakes instead, one which each mouse click. The goal is to eat as much apples as possible.</p>
+                        <p class="card-subtitle mb-3 ml-4"> Done it with <i><b>HTML</b></i>, <i><b>CSS</b></i> and vanilla <i><b>JavaScript</b></i>.</p>
+                            
+                    <p class="card-subtitle mb-3 ml-4">Check it out at <a href="https://www.snaketwo.com" target="_blank" style="color: #4682A9;">snaketwo.com</a></p>
+                    
+                    <p class="card-subtitle mb-3 ml-4"><b>Video of a gamplay:</b></p>
+                    <div id="outer">
+                        <video controls>
+                            <source src="assets/snake.mp4" type="video/mp4" class="video">
+                        </video>
+                    </div>
+                </div>  
+                <div class="card-body projects-card">
                         <div class="card-title">
                             <h4 class="font-weight-bold mb-6 font-italic">TFTP</h4>
                             <a href="https://github.com/Blondie-TheManWithNoName/TFTP" target="_blank" class="text-muted repository">
@@ -111,6 +148,13 @@
                         </div>
                         <p class="card-subtitle mb-3 ml-4">This is a project were I developed a Trivial File Transfer Protocol Server and Client with <i><b>
                             Python 3.5</b></i> and a designed GUI with <i><b>PyQt5</b></i> following the standards of the <i><b>RFCs</b></i>.</p>
+                    	<p class="card-subtitle mb-3 ml-4"><b>Video example sending a file from client to server:</b></p>
+                    	<div id="outer">
+                       	    <video controls>
+                            	<source src="assets/tftp.mp4" type="video/mp4" class="video">
+                            </video>
+                    	</div>
+
                     </div>
                     <div class="card-body projects-card">
                         <div class="card-title">
@@ -120,7 +164,15 @@
                         </div>
                         <p class="card-subtitle mb-3 ml-4">Website Database Editor using <i><b>Python 3.5</b></i> and <i><b>PostgresSQL</b></i> with the basic operations: Create, read, update and delete.</p>
                         <p class="card-subtitle mb-3 ml-4">Using for the FrontEnd <i><b>HTML</b></i> and <i><b>CSS</b></i></p>
-                        <p class="card-subtitle mb-3 ml-4">And using for the BackEnd <i><b>Psycopg2</b></i> for the database and <i><b>Flask</b></i> as the framework for the website.</p>
+                        <p class="card-subtitle mb-3 ml-4">And using for the BackEnd <i><b>Psycopg2</b></i> for the database and the framework  <i><b>Flask</b></i> for the website.</p>
+
+                    	<p class="card-subtitle mb-3 ml-4"><b>Video example with CRUD commands:</b></p>
+                    	<div id="outer">
+                       	    <video controls>
+                            	<source src="assets/npcs.mp4" type="video/mp4" class="video">
+                            </video>
+                    	</div>
+
                     </div>
                     <div class="card-body projects-card w-150">
                         <div class="card-title">
@@ -136,14 +188,24 @@
                             <li class="mb-2 li-project">Organize given information to provide the most frequent number depending on the query</li>
                         </ul>
                     </div>
-                    <div class="card-body projects-card ">
+		<div class="card-body projects-card">
                         <div class="card-title">
-                            <h4 class="font-weight-bold mb-6 font-italic">Cards</h4>
+                            <h4 class="font-weight-bold mb-6 font-italic">Cube Abyss</h4>
+                            <a href="https://github.com/Blondie-TheManWithNoName/CubeAbyss" target="_blank" class="text-muted repository">
+                            <i class="fa-solid fa-book-bookmark zoom-icon"></i></a>
                         </div>
-                        <p class="card-subtitle mb-3 ml-4">Last project I have been working on. It's a Poker Card Mat where you can play several games.
-                                Implemented with <i><b>HTML</b></i>, <i><b>CSS</b></i> and vanilla <i><b>JavaScript</b></i></p>
-                        <p class="card-subtitle mb-3 ml-4">Still in progress but... <a href="/cards/cards" target="_blank" style="color: #4682A9;"><u>Check it out!</u></a></p>
+                        <p class="card-subtitle mb-3 ml-4">Videogame made with <i><b>Unity</b></i> and <i><b>C#</b></i> with a procedural creation of maps for every game where the players needs to jump as far as it can.</p>
+
+                    	<p class="card-subtitle mb-3 ml-4"><b>Video example:</b></p>
+                    	<div id="outer">
+                       	    <video controls>
+                            	<source src="assets/cube.mp4" type="video/mp4" class="video">
+                            </video>
+                    	</div>
+
                     </div>
+
+  
                     <div class="card-body projects-card w-100">
                         <div class="check justify-content-center">
                             <h2 class="font-weight-bold mb-6 text-center">CHECK OUT MY GITHUB FOR MORE!</h2>
